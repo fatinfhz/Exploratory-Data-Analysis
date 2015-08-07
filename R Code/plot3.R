@@ -1,6 +1,6 @@
 #Fatin Fatihah Zahari
 #Exploratory Data Analysis
-#Project 1 - plot2.R for plot2.png
+#Project 1 - plot3.R for plot3.png
 
 #Fetch Raw Data
 rawFile <- "./data/household_power_consumption.txt"
