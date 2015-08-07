@@ -16,7 +16,7 @@ subsetmeter2<-as.numeric(subsetmydata$Sub_metering_2)
 subsetmeter3<-as.numeric(subsetmydata$Sub_metering_3)
 
 png("plot3.png", width=480, height=480)
-plot(datetime, subsetmeter1, type="l", ylab="Energy Submetering", xlab="")
+plot(datetime, subsetmeter1, type="l", ylab="Energy sub metering", xlab="")
 lines(datetime, subsetmeter2, type="l", col="red")
 lines(datetime, subsetmeter3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2.5, col=c("black", "red", "blue"))
